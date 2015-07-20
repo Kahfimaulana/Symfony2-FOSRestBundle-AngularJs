@@ -1,0 +1,9 @@
+passwordbundle_Password:
+    type: rest
+    prefix: /v1
+    resource: "PasswordBundle\Controller\\PasswordController"
+    name_prefix:  api_1_
+
+password:
+    resource: "@PasswordBundle/Controller/PasswordController.php"
+    type:     annotation

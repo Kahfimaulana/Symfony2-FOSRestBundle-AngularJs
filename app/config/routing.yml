@@ -1,0 +1,4 @@
+password:
+    type: rest
+    prefix: /api
+    resource: "@PasswordBundle/Resources/config/routes.yml"
